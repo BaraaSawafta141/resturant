@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Alegreya', serif;
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    background-image:url(../img/shutterstock_277750193.jpg);
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-size: cover;
+
+}
+.overlay{
+    background-color: rgb(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+.navbar .logo img{
+    width: 25%;
+}
+.navbar .nav{
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+}
+.navbar .nav .list-item{
+    display: inline-block;
+}
+.navbar .nav .list-item a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+margin-right: 30px;
+}
+.header-content{
+    padding-top:90px ;
+}
+
+.header h1{
+    font-size: 76px ;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.header p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 40px ;
+    margin-bottom: 25px;
+}
+.btn{
+    padding:15px 30px ;
+    border: none;
+    font-size: 15px;
+    
+}
+.btn-learn{
+    background-color: #c1ab84;
+    color: white;
+}
+.btn-learn:hover{
+    background-color:white;
+    color: black;  
+    cursor: pointer;
+}
+.about-img{
+    float: left;
+    width: 40%;
+}
+
+.about-content{
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 300px;
+}
+.clrfix{
+    clear: both;
+}
+.about-content h2{
+    font-size: 36px;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 20px;
+}
+.about-content h3{
+    font-size: 28px;
+    color: #c1ab84;
+    font-family: 'Alegreya', serif;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+.about-content p{
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    color: #686868;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.lili{
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    color: #686868;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.about-content ul li i{
+    background-color: rgb(193,171,132);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+}
+.about-content ul li span{
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.review{
+    background-color: rgb(248, 248, 248);
+    padding: 70px;
+}
+.review-desc{
+    float: left;
+    width: 60%;
+}
+.review-desc h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 10px;
+}
+.review-desc h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(193, 171, 132);
+    margin-bottom: 15px;
+
+}
+.review-desc p{
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    color: rgb(104, 104, 104);
+    width: 79%;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.review-desc i{
+    margin-bottom: 15px;
+    color: rgb(193, 171, 132);
+}
+
+.review-img{
+    float: left;
+    width: 40%;
+}
+.review-img img{
+    width: 100%;
+}
+.cover{
+    background-image: url(../img/shutterstock_280369721.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.options{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background-color: antiquewhite;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+    .navbar .logo{
+        float: none;
+        width: 100%;
+        margin-right: 200px;
+        margin-top: 15px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+    }
+    .navbar .nav .list-item a{
+        font-size: 30px;
+    }
+    .about-img{
+        float: none;
+        width: 100%;
+    }
+    
+    .about-content{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 300px;
+    }
+}
+
